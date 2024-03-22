@@ -1,14 +1,14 @@
 ###
 # Unity folders and files
 ###
-"Speech Recognition Hackathon"/Assets/Data
-"Speech Recognition Hackathon"/Assets/Processed Bytes
-"Speech Recognition Hackathon"/Build
-"Speech Recognition Hackathon"/[Ll]ibrary
-"Speech Recognition Hackathon"/[Ll]ocal[Cc]ache
-"Speech Recognition Hackathon"/[Oo]bj
-"Speech Recognition Hackathon"/[Tt]emp
-"Speech Recognition Hackathon"/[Uu]nityGenerated
+Speech-Recognition-Hackathon/Assets/Data
+Speech-Recognition-Hackathon/Assets/Processed Bytes
+Speech-Recognition-Hackathon/Build
+Speech-Recognition-Hackathon/[Ll]ibrary
+Speech-Recognition-Hackathon/[Ll]ocal[Cc]ache
+Speech-Recognition-Hackathon/[Oo]bj
+Speech-Recognition-Hackathon/[Tt]emp
+Speech-Recognition-Hackathon/[Uu]nityGenerated
 
 # file on crash reports
 sysinfo.txt
