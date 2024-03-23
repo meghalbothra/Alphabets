@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Unimgpicker/Samples/Picker.unity
+    guid: 5e6bb1628afec4fabb31869b32c39149
+  - enabled: 1
+    path: Assets/SpeechRecognizer.unity
+    guid: 4f42df4bbb1de474cb66389498b70d31
   m_configObjects: {}
