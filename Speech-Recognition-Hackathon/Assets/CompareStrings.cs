@@ -45,6 +45,7 @@ public class CompareStrings : MonoBehaviour
         {
             tick.GetComponent<Image>().enabled = false;
             gameManager.GetComponent<GameManager>().StopGame();
+            
 
         }
 

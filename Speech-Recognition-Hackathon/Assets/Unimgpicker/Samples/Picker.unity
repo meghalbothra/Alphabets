@@ -517,7 +517,8 @@ GameObject:
   - component: {fileID: 274497520}
   - component: {fileID: 274497519}
   - component: {fileID: 274497518}
-  m_Layer: 0
+  - component: {fileID: 274497523}
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,6 +624,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 185207869}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &274497523
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274497517}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &345149620
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2535,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 185207867}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1050296917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2690,9 +2730,9 @@ GameObject:
   - component: {fileID: 1071660169}
   - component: {fileID: 1071660168}
   - component: {fileID: 1071660167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plain
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3229,7 +3269,7 @@ GameObject:
   - component: {fileID: 1434537770}
   - component: {fileID: 1434537769}
   - component: {fileID: 1434537774}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3361,6 +3401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90e2d2a3228654a49ab590118dfe3a6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 185207867}
 --- !u!1 &1462305046
 GameObject:
   m_ObjectHideFlags: 0
@@ -4331,6 +4372,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 185207867}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1889893201
 MonoBehaviour:
